@@ -7,7 +7,6 @@
         position: absolute;
         top: 0;
         left: 0;
-        height: 100%;
         width: 100%;
       }
       
@@ -21,6 +20,24 @@
         width: 100vw;
         display: flex;
         flex-direction: column;
-      }   
+      }  
+      
+      .results-card{
+        text-align: center;
+        background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+        padding:22vw;
+      }
+
+      .results-card > p{
+        font-size:3.5vw;
+      }
+
+      .results-card > h2{
+        font-size:6vw;
+      }
+
+      .results-card > h3{
+        font-size:5vw;
+      }
 
 }
