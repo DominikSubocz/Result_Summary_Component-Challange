@@ -330,6 +330,10 @@ body{
 
 }
 @media only screen and (min-width: 730px) {
+  .outer{
+    margin-top: 15vw;
+  }
+  
   .inner{
     flex-direction: row;
   }
@@ -337,9 +341,38 @@ body{
 .results-card{
   text-align: center;
   background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
-  padding:8vw 22vw 8vw 22vw;
-  border-radius: 0 0 25px 25px;
+  padding:4vw 10vw;
+  border-radius: 25px;
+  width: 30vw;
+  margin:auto;
 }
+
+.summary-card{
+  width: 40vw;
+  margin: 0 4vw 0 0vw
+  
+}
+
+.item{
+  margin:1vw 0 3vw 0vw;
+}
+
+.item > span{
+  margin:0 5vw 0 2vw;
+}
+
+button{
+  background-color: hsl(224, 30%, 27%);
+  border:none;
+  border-radius: 25px;
+  color:hsl(221, 100%, 96%);
+  font-size:3vw;
+  padding:2vw;
+  margin:0 0 4vw 0;
+}
+
+
+
 
 }
 
