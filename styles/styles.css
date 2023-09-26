@@ -487,13 +487,6 @@ button{
 
 @media only screen and (min-width: 1400px) {
   
-  .outer {
-    display: table;
-    position: absolute;
-    top: 15%;
-    left: 0;
-    width: 100%;
-  }
 
   .inner{
     flex-direction: row;
