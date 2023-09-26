@@ -1,6 +1,7 @@
 
 body{
   font-family: Arial, Helvetica, sans-serif;
+  margin:0;
 }
 
 .outer {
@@ -482,9 +483,16 @@ button{
 
 @media only screen and (min-width: 1400px) {
   
+  .outer {
+    display: table;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+  }
+
   .inner{
     flex-direction: row;
-    margin:2.5% auto;
   }
 
   .score,.results-card > p{
